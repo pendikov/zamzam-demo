@@ -7,23 +7,91 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		042E44F65756A77578399391 /* Pods_ZamZamDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0008DB790DB8B409E156E623 /* Pods_ZamZamDemo.framework */; };
+		C401FE0E2196ABF70026C31D /* ZZTransactionPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C401FE082196ABF70026C31D /* ZZTransactionPresenter.swift */; };
+		C401FE0F2196ABF70026C31D /* ZZTransactionRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C401FE092196ABF70026C31D /* ZZTransactionRouter.swift */; };
+		C401FE102196ABF70026C31D /* ZZTransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C401FE0A2196ABF70026C31D /* ZZTransactionViewController.swift */; };
+		C401FE112196ABF70026C31D /* ZZTransactionProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = C401FE0B2196ABF70026C31D /* ZZTransactionProtocols.swift */; };
+		C401FE122196ABF70026C31D /* ZZTransactionInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C401FE0C2196ABF70026C31D /* ZZTransactionInteractor.swift */; };
+		C401FE132196ABF70026C31D /* ZZTransactionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C401FE0D2196ABF70026C31D /* ZZTransactionViewController.xib */; };
+		C401FE1B2196BED60026C31D /* ZZBlockPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C401FE152196BED60026C31D /* ZZBlockPresenter.swift */; };
+		C401FE1C2196BED60026C31D /* ZZBlockRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C401FE162196BED60026C31D /* ZZBlockRouter.swift */; };
+		C401FE1D2196BED60026C31D /* ZZBlockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C401FE172196BED60026C31D /* ZZBlockViewController.swift */; };
+		C401FE1E2196BED60026C31D /* ZZBlockProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = C401FE182196BED60026C31D /* ZZBlockProtocols.swift */; };
+		C401FE1F2196BED60026C31D /* ZZBlockInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C401FE192196BED60026C31D /* ZZBlockInteractor.swift */; };
+		C401FE202196BED60026C31D /* ZZBlockViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C401FE1A2196BED60026C31D /* ZZBlockViewController.xib */; };
+		C401FE282196BEE60026C31D /* ZZBlocksPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C401FE222196BEE60026C31D /* ZZBlocksPresenter.swift */; };
+		C401FE292196BEE60026C31D /* ZZBlocksRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C401FE232196BEE60026C31D /* ZZBlocksRouter.swift */; };
+		C401FE2A2196BEE60026C31D /* ZZBlocksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C401FE242196BEE60026C31D /* ZZBlocksViewController.swift */; };
+		C401FE2B2196BEE60026C31D /* ZZBlocksProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = C401FE252196BEE60026C31D /* ZZBlocksProtocols.swift */; };
+		C401FE2C2196BEE60026C31D /* ZZBlocksInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C401FE262196BEE60026C31D /* ZZBlocksInteractor.swift */; };
+		C401FE2D2196BEE60026C31D /* ZZBlocksViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C401FE272196BEE60026C31D /* ZZBlocksViewController.xib */; };
+		C401FE302196C1330026C31D /* ZZJsonParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = C401FE2F2196C1330026C31D /* ZZJsonParser.swift */; };
 		C45CE7B62195DC090011BE8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45CE7B52195DC090011BE8B /* AppDelegate.swift */; };
-		C45CE7B82195DC090011BE8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45CE7B72195DC090011BE8B /* ViewController.swift */; };
-		C45CE7BB2195DC090011BE8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C45CE7B92195DC090011BE8B /* Main.storyboard */; };
 		C45CE7BE2195DC090011BE8B /* ZamZamDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C45CE7BC2195DC090011BE8B /* ZamZamDemo.xcdatamodeld */; };
 		C45CE7C02195DC0B0011BE8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C45CE7BF2195DC0B0011BE8B /* Assets.xcassets */; };
 		C45CE7C32195DC0B0011BE8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C45CE7C12195DC0B0011BE8B /* LaunchScreen.storyboard */; };
+		C45CE7CD2195E5540011BE8B /* ZZSocketClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45CE7CC2195E5540011BE8B /* ZZSocketClient.swift */; };
+		C45CE7D32195E9D10011BE8B /* ZZConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45CE7D22195E9D10011BE8B /* ZZConfig.swift */; };
+		C45CE7DA2195F9000011BE8B /* ZZTransactionsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45CE7D42195F9000011BE8B /* ZZTransactionsPresenter.swift */; };
+		C45CE7DB2195F9000011BE8B /* ZZTransactionsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45CE7D52195F9000011BE8B /* ZZTransactionsRouter.swift */; };
+		C45CE7DC2195F9000011BE8B /* ZZTransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45CE7D62195F9000011BE8B /* ZZTransactionsViewController.swift */; };
+		C45CE7DD2195F9000011BE8B /* ZZTransactionsProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45CE7D72195F9000011BE8B /* ZZTransactionsProtocols.swift */; };
+		C45CE7DE2195F9000011BE8B /* ZZTransactionsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45CE7D82195F9000011BE8B /* ZZTransactionsInteractor.swift */; };
+		C45CE7DF2195F9000011BE8B /* ZZTransactionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C45CE7D92195F9000011BE8B /* ZZTransactionsViewController.xib */; };
+		C45CE825219645CA0011BE8B /* ZZRestAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45CE824219645CA0011BE8B /* ZZRestAPIService.swift */; };
+		C45CE82921964F940011BE8B /* ZZActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45CE82821964F940011BE8B /* ZZActivityIndicator.swift */; };
+		C45CE82E219653730011BE8B /* ZZBlockchainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45CE82D219653730011BE8B /* ZZBlockchainService.swift */; };
+		C45CE83021967AFD0011BE8B /* ZZAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45CE82F21967AFD0011BE8B /* ZZAlert.swift */; };
+		C45CE84C2196918F0011BE8B /* ZZBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45CE84B2196918F0011BE8B /* ZZBaseViewController.swift */; };
+		C480C31A2198601500D071F1 /* ZZBlockExplorerAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C480C3192198601500D071F1 /* ZZBlockExplorerAPIService.swift */; };
+		C480C31C2198855800D071F1 /* ZZModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45CE7CA2195DD040011BE8B /* ZZModels.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0008DB790DB8B409E156E623 /* Pods_ZamZamDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZamZamDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2487369846BA336AADFE3A30 /* Pods-ZamZamDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZamZamDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZamZamDemo/Pods-ZamZamDemo.release.xcconfig"; sourceTree = "<group>"; };
+		AA04305C0105777B1755A249 /* Pods-ZamZamDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZamZamDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZamZamDemo/Pods-ZamZamDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C401FE082196ABF70026C31D /* ZZTransactionPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZTransactionPresenter.swift; sourceTree = "<group>"; };
+		C401FE092196ABF70026C31D /* ZZTransactionRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZTransactionRouter.swift; sourceTree = "<group>"; };
+		C401FE0A2196ABF70026C31D /* ZZTransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZTransactionViewController.swift; sourceTree = "<group>"; };
+		C401FE0B2196ABF70026C31D /* ZZTransactionProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZTransactionProtocols.swift; sourceTree = "<group>"; };
+		C401FE0C2196ABF70026C31D /* ZZTransactionInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZTransactionInteractor.swift; sourceTree = "<group>"; };
+		C401FE0D2196ABF70026C31D /* ZZTransactionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZZTransactionViewController.xib; sourceTree = "<group>"; };
+		C401FE152196BED60026C31D /* ZZBlockPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZBlockPresenter.swift; sourceTree = "<group>"; };
+		C401FE162196BED60026C31D /* ZZBlockRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZBlockRouter.swift; sourceTree = "<group>"; };
+		C401FE172196BED60026C31D /* ZZBlockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZBlockViewController.swift; sourceTree = "<group>"; };
+		C401FE182196BED60026C31D /* ZZBlockProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZBlockProtocols.swift; sourceTree = "<group>"; };
+		C401FE192196BED60026C31D /* ZZBlockInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZBlockInteractor.swift; sourceTree = "<group>"; };
+		C401FE1A2196BED60026C31D /* ZZBlockViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZZBlockViewController.xib; sourceTree = "<group>"; };
+		C401FE222196BEE60026C31D /* ZZBlocksPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZBlocksPresenter.swift; sourceTree = "<group>"; };
+		C401FE232196BEE60026C31D /* ZZBlocksRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZBlocksRouter.swift; sourceTree = "<group>"; };
+		C401FE242196BEE60026C31D /* ZZBlocksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZBlocksViewController.swift; sourceTree = "<group>"; };
+		C401FE252196BEE60026C31D /* ZZBlocksProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZBlocksProtocols.swift; sourceTree = "<group>"; };
+		C401FE262196BEE60026C31D /* ZZBlocksInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZBlocksInteractor.swift; sourceTree = "<group>"; };
+		C401FE272196BEE60026C31D /* ZZBlocksViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZZBlocksViewController.xib; sourceTree = "<group>"; };
+		C401FE2F2196C1330026C31D /* ZZJsonParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZJsonParser.swift; sourceTree = "<group>"; };
 		C45CE7B22195DC090011BE8B /* ZamZamDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZamZamDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C45CE7B52195DC090011BE8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C45CE7B72195DC090011BE8B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C45CE7BA2195DC090011BE8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C45CE7BD2195DC090011BE8B /* ZamZamDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ZamZamDemo.xcdatamodel; sourceTree = "<group>"; };
 		C45CE7BF2195DC0B0011BE8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C45CE7C22195DC0B0011BE8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C45CE7C42195DC0B0011BE8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C45CE7CA2195DD040011BE8B /* ZZModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZModels.swift; sourceTree = "<group>"; };
+		C45CE7CC2195E5540011BE8B /* ZZSocketClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZSocketClient.swift; sourceTree = "<group>"; };
+		C45CE7D22195E9D10011BE8B /* ZZConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZConfig.swift; sourceTree = "<group>"; };
+		C45CE7D42195F9000011BE8B /* ZZTransactionsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZTransactionsPresenter.swift; sourceTree = "<group>"; };
+		C45CE7D52195F9000011BE8B /* ZZTransactionsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZTransactionsRouter.swift; sourceTree = "<group>"; };
+		C45CE7D62195F9000011BE8B /* ZZTransactionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZTransactionsViewController.swift; sourceTree = "<group>"; };
+		C45CE7D72195F9000011BE8B /* ZZTransactionsProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZTransactionsProtocols.swift; sourceTree = "<group>"; };
+		C45CE7D82195F9000011BE8B /* ZZTransactionsInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZTransactionsInteractor.swift; sourceTree = "<group>"; };
+		C45CE7D92195F9000011BE8B /* ZZTransactionsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZZTransactionsViewController.xib; sourceTree = "<group>"; };
+		C45CE824219645CA0011BE8B /* ZZRestAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZRestAPIService.swift; sourceTree = "<group>"; };
+		C45CE82821964F940011BE8B /* ZZActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZZActivityIndicator.swift; sourceTree = "<group>"; };
+		C45CE82D219653730011BE8B /* ZZBlockchainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZBlockchainService.swift; sourceTree = "<group>"; };
+		C45CE82F21967AFD0011BE8B /* ZZAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZAlert.swift; sourceTree = "<group>"; };
+		C45CE84B2196918F0011BE8B /* ZZBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZBaseViewController.swift; sourceTree = "<group>"; };
+		C480C3192198601500D071F1 /* ZZBlockExplorerAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZZBlockExplorerAPIService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +99,76 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				042E44F65756A77578399391 /* Pods_ZamZamDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		09F41335BBB34B485671C57E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA04305C0105777B1755A249 /* Pods-ZamZamDemo.debug.xcconfig */,
+				2487369846BA336AADFE3A30 /* Pods-ZamZamDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		790FF4EDC13688D984DE3095 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0008DB790DB8B409E156E623 /* Pods_ZamZamDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C401FE142196AC000026C31D /* transaction */ = {
+			isa = PBXGroup;
+			children = (
+				C401FE0B2196ABF70026C31D /* ZZTransactionProtocols.swift */,
+				C401FE082196ABF70026C31D /* ZZTransactionPresenter.swift */,
+				C401FE092196ABF70026C31D /* ZZTransactionRouter.swift */,
+				C401FE0A2196ABF70026C31D /* ZZTransactionViewController.swift */,
+				C401FE0C2196ABF70026C31D /* ZZTransactionInteractor.swift */,
+				C401FE0D2196ABF70026C31D /* ZZTransactionViewController.xib */,
+			);
+			path = transaction;
+			sourceTree = "<group>";
+		};
+		C401FE212196BEDB0026C31D /* block */ = {
+			isa = PBXGroup;
+			children = (
+				C401FE182196BED60026C31D /* ZZBlockProtocols.swift */,
+				C401FE152196BED60026C31D /* ZZBlockPresenter.swift */,
+				C401FE162196BED60026C31D /* ZZBlockRouter.swift */,
+				C401FE172196BED60026C31D /* ZZBlockViewController.swift */,
+				C401FE192196BED60026C31D /* ZZBlockInteractor.swift */,
+				C401FE1A2196BED60026C31D /* ZZBlockViewController.xib */,
+			);
+			path = block;
+			sourceTree = "<group>";
+		};
+		C401FE2E2196BEEA0026C31D /* blocks */ = {
+			isa = PBXGroup;
+			children = (
+				C401FE252196BEE60026C31D /* ZZBlocksProtocols.swift */,
+				C401FE222196BEE60026C31D /* ZZBlocksPresenter.swift */,
+				C401FE232196BEE60026C31D /* ZZBlocksRouter.swift */,
+				C401FE242196BEE60026C31D /* ZZBlocksViewController.swift */,
+				C401FE262196BEE60026C31D /* ZZBlocksInteractor.swift */,
+				C401FE272196BEE60026C31D /* ZZBlocksViewController.xib */,
+			);
+			path = blocks;
+			sourceTree = "<group>";
+		};
 		C45CE7A92195DC090011BE8B = {
 			isa = PBXGroup;
 			children = (
 				C45CE7B42195DC090011BE8B /* ZamZamDemo */,
 				C45CE7B32195DC090011BE8B /* Products */,
+				09F41335BBB34B485671C57E /* Pods */,
+				790FF4EDC13688D984DE3095 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +184,71 @@
 			isa = PBXGroup;
 			children = (
 				C45CE7B52195DC090011BE8B /* AppDelegate.swift */,
-				C45CE7B72195DC090011BE8B /* ViewController.swift */,
-				C45CE7B92195DC090011BE8B /* Main.storyboard */,
 				C45CE7BF2195DC0B0011BE8B /* Assets.xcassets */,
 				C45CE7C12195DC0B0011BE8B /* LaunchScreen.storyboard */,
 				C45CE7C42195DC0B0011BE8B /* Info.plist */,
 				C45CE7BC2195DC090011BE8B /* ZamZamDemo.xcdatamodeld */,
+				C480C31B2198834300D071F1 /* models */,
+				C45CE82C21964FD50011BE8B /* ui-utils */,
+				C45CE823219639460011BE8B /* services */,
+				C45CE83E219685700011BE8B /* modules */,
 			);
 			path = ZamZamDemo;
+			sourceTree = "<group>";
+		};
+		C45CE7E02195F9060011BE8B /* transactions */ = {
+			isa = PBXGroup;
+			children = (
+				C45CE7D72195F9000011BE8B /* ZZTransactionsProtocols.swift */,
+				C45CE7D42195F9000011BE8B /* ZZTransactionsPresenter.swift */,
+				C45CE7D52195F9000011BE8B /* ZZTransactionsRouter.swift */,
+				C45CE7D62195F9000011BE8B /* ZZTransactionsViewController.swift */,
+				C45CE7D82195F9000011BE8B /* ZZTransactionsInteractor.swift */,
+				C45CE7D92195F9000011BE8B /* ZZTransactionsViewController.xib */,
+			);
+			path = transactions;
+			sourceTree = "<group>";
+		};
+		C45CE823219639460011BE8B /* services */ = {
+			isa = PBXGroup;
+			children = (
+				C45CE7CC2195E5540011BE8B /* ZZSocketClient.swift */,
+				C45CE824219645CA0011BE8B /* ZZRestAPIService.swift */,
+				C45CE82D219653730011BE8B /* ZZBlockchainService.swift */,
+				C401FE2F2196C1330026C31D /* ZZJsonParser.swift */,
+				C480C3192198601500D071F1 /* ZZBlockExplorerAPIService.swift */,
+			);
+			path = services;
+			sourceTree = "<group>";
+		};
+		C45CE82C21964FD50011BE8B /* ui-utils */ = {
+			isa = PBXGroup;
+			children = (
+				C45CE82821964F940011BE8B /* ZZActivityIndicator.swift */,
+				C45CE82F21967AFD0011BE8B /* ZZAlert.swift */,
+				C45CE84B2196918F0011BE8B /* ZZBaseViewController.swift */,
+			);
+			path = "ui-utils";
+			sourceTree = "<group>";
+		};
+		C45CE83E219685700011BE8B /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				C401FE2E2196BEEA0026C31D /* blocks */,
+				C401FE212196BEDB0026C31D /* block */,
+				C45CE7E02195F9060011BE8B /* transactions */,
+				C401FE142196AC000026C31D /* transaction */,
+			);
+			path = modules;
+			sourceTree = "<group>";
+		};
+		C480C31B2198834300D071F1 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				C45CE7CA2195DD040011BE8B /* ZZModels.swift */,
+				C45CE7D22195E9D10011BE8B /* ZZConfig.swift */,
+			);
+			path = models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +258,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C45CE7C72195DC0B0011BE8B /* Build configuration list for PBXNativeTarget "ZamZamDemo" */;
 			buildPhases = (
+				5F4D2C1176F359536477475D /* [CP] Check Pods Manifest.lock */,
 				C45CE7AE2195DC090011BE8B /* Sources */,
 				C45CE7AF2195DC090011BE8B /* Frameworks */,
 				C45CE7B02195DC090011BE8B /* Resources */,
+				B9B7F185DA4030689850653C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +313,109 @@
 			files = (
 				C45CE7C32195DC0B0011BE8B /* LaunchScreen.storyboard in Resources */,
 				C45CE7C02195DC0B0011BE8B /* Assets.xcassets in Resources */,
-				C45CE7BB2195DC090011BE8B /* Main.storyboard in Resources */,
+				C45CE7DF2195F9000011BE8B /* ZZTransactionsViewController.xib in Resources */,
+				C401FE2D2196BEE60026C31D /* ZZBlocksViewController.xib in Resources */,
+				C401FE202196BED60026C31D /* ZZBlockViewController.xib in Resources */,
+				C401FE132196ABF70026C31D /* ZZTransactionViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F4D2C1176F359536477475D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZamZamDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9B7F185DA4030689850653C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ZamZamDemo/Pods-ZamZamDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyBeaver/SwiftyBeaver.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyBeaver.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZamZamDemo/Pods-ZamZamDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C45CE7AE2195DC090011BE8B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C480C31C2198855800D071F1 /* ZZModels.swift in Sources */,
 				C45CE7BE2195DC090011BE8B /* ZamZamDemo.xcdatamodeld in Sources */,
-				C45CE7B82195DC090011BE8B /* ViewController.swift in Sources */,
+				C45CE7CD2195E5540011BE8B /* ZZSocketClient.swift in Sources */,
+				C401FE292196BEE60026C31D /* ZZBlocksRouter.swift in Sources */,
+				C45CE82E219653730011BE8B /* ZZBlockchainService.swift in Sources */,
+				C401FE122196ABF70026C31D /* ZZTransactionInteractor.swift in Sources */,
+				C401FE1D2196BED60026C31D /* ZZBlockViewController.swift in Sources */,
+				C45CE7D32195E9D10011BE8B /* ZZConfig.swift in Sources */,
+				C45CE7DA2195F9000011BE8B /* ZZTransactionsPresenter.swift in Sources */,
+				C401FE302196C1330026C31D /* ZZJsonParser.swift in Sources */,
+				C480C31A2198601500D071F1 /* ZZBlockExplorerAPIService.swift in Sources */,
+				C401FE1E2196BED60026C31D /* ZZBlockProtocols.swift in Sources */,
+				C401FE0F2196ABF70026C31D /* ZZTransactionRouter.swift in Sources */,
+				C45CE82921964F940011BE8B /* ZZActivityIndicator.swift in Sources */,
+				C401FE2A2196BEE60026C31D /* ZZBlocksViewController.swift in Sources */,
+				C401FE102196ABF70026C31D /* ZZTransactionViewController.swift in Sources */,
+				C401FE1C2196BED60026C31D /* ZZBlockRouter.swift in Sources */,
+				C45CE825219645CA0011BE8B /* ZZRestAPIService.swift in Sources */,
+				C401FE282196BEE60026C31D /* ZZBlocksPresenter.swift in Sources */,
+				C45CE7DC2195F9000011BE8B /* ZZTransactionsViewController.swift in Sources */,
+				C401FE112196ABF70026C31D /* ZZTransactionProtocols.swift in Sources */,
+				C45CE7DD2195F9000011BE8B /* ZZTransactionsProtocols.swift in Sources */,
+				C401FE2B2196BEE60026C31D /* ZZBlocksProtocols.swift in Sources */,
+				C401FE0E2196ABF70026C31D /* ZZTransactionPresenter.swift in Sources */,
+				C401FE1F2196BED60026C31D /* ZZBlockInteractor.swift in Sources */,
+				C45CE7DB2195F9000011BE8B /* ZZTransactionsRouter.swift in Sources */,
+				C401FE2C2196BEE60026C31D /* ZZBlocksInteractor.swift in Sources */,
+				C401FE1B2196BED60026C31D /* ZZBlockPresenter.swift in Sources */,
+				C45CE83021967AFD0011BE8B /* ZZAlert.swift in Sources */,
 				C45CE7B62195DC090011BE8B /* AppDelegate.swift in Sources */,
+				C45CE84C2196918F0011BE8B /* ZZBaseViewController.swift in Sources */,
+				C45CE7DE2195F9000011BE8B /* ZZTransactionsInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C45CE7B92195DC090011BE8B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C45CE7BA2195DC090011BE8B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C45CE7C12195DC0B0011BE8B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -284,6 +545,7 @@
 		};
 		C45CE7C82195DC0B0011BE8B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA04305C0105777B1755A249 /* Pods-ZamZamDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +564,7 @@
 		};
 		C45CE7C92195DC0B0011BE8B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2487369846BA336AADFE3A30 /* Pods-ZamZamDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
